@@ -3,494 +3,262 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lista de regalos Baby Shower Amara Garcia Usa - 3 de Mayo 2026">
 <title>Baby Shower - Amara Garcia Usa</title>
 <style>
-:root {
-  --primary: #D4845A;
-  --primary-light: #F5DEB3;
-  --primary-dark: #B8632D;
-  --bg: #FFF9F0;
-  --card-bg: #FFFFFF;
-  --text: #3D2B1F;
-  --text-light: #8B7355;
-  --success: #6B8E4E;
-  --success-bg: #E8F5E0;
-  --border: #E8D5C4;
-  --shadow: 0 2px 8px rgba(139,115,85,0.12);
-}
-* { margin:0; padding:0; box-sizing:border-box; }
-body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.5;
-  min-height: 100vh;
-}
-.header {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-  position: relative;
-  overflow: hidden;
-}
-.header::before {
-  content: '';
-  position: absolute;
-  top: -50%; left: -50%;
-  width: 200%; height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
-}
-.header h1 { font-size: 1.8rem; font-weight: 300; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.3rem; position: relative; }
-.header .baby-name { font-size: 2.5rem; font-weight: 700; font-style: italic; letter-spacing: 1px; position: relative; }
-.header .event-info { margin-top: 1rem; font-size: 0.95rem; opacity: 0.9; position: relative; }
-.header .event-info span { display: inline-block; margin: 0.2rem 0.5rem; }
-.progress-section {
-  background: var(--card-bg);
-  padding: 1.2rem;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-  position: sticky; top: 0; z-index: 100;
-  box-shadow: var(--shadow);
-}
-.progress-bar-container { background: #EDE0D4; border-radius: 20px; height: 12px; max-width: 500px; margin: 0.5rem auto; overflow: hidden; }
-.progress-bar { background: linear-gradient(90deg, var(--success) 0%, #8BC34A 100%); height: 100%; border-radius: 20px; transition: width 0.5s ease; width: 0%; }
-.progress-text { font-size: 0.85rem; color: var(--text-light); }
-.progress-text strong { color: var(--primary-dark); }
-.filters {
-  padding: 0.8rem 1rem;
-  background: var(--card-bg);
-  border-bottom: 1px solid var(--border);
-  display: flex; gap: 0.5rem;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-.filter-btn {
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  background: white;
-  color: var(--text-light);
-  font-size: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.2s;
-}
-.filter-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
-.filter-btn:hover { border-color: var(--primary); }
-.category-title { padding: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--primary-dark); background: var(--primary-light); border-bottom: 2px solid var(--primary); margin-top: 0.5rem; }
-.category-desc { padding: 0.3rem 1rem 0.5rem; font-size: 0.8rem; color: var(--text-light); background: var(--primary-light); border-bottom: 1px solid var(--border); }
-.items-container { padding: 0 0 4rem; }
-.item {
-  display: flex; align-items: center;
-  padding: 0.8rem 1rem;
-  border-bottom: 1px solid var(--border);
-  background: var(--card-bg);
-  transition: background 0.2s;
-  gap: 0.8rem;
-}
-.item:hover { background: #FFF5E6; }
-.item.claimed { background: var(--success-bg); opacity: 0.75; }
-.item-number { min-width: 28px; height: 28px; border-radius: 50%; background: var(--primary-light); color: var(--primary-dark); display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600; }
-.item.claimed .item-number { background: var(--success); color: white; }
-.item-info { flex: 1; min-width: 0; }
-.item-name { font-weight: 500; font-size: 0.95rem; line-height: 1.3; }
-.item.claimed .item-name { text-decoration: line-through; color: var(--text-light); }
-.item-meta { display: flex; gap: 0.5rem; align-items: center; margin-top: 0.2rem; flex-wrap: wrap; }
-.item-price { font-weight: 600; color: var(--primary-dark); font-size: 0.85rem; }
-.item-notes { font-size: 0.75rem; color: var(--text-light); font-style: italic; }
-.item-claimed-by { font-size: 0.8rem; color: var(--success); font-weight: 500; }
-.item-priority { font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 8px; font-weight: 600; text-transform: uppercase; }
-.priority-esencial { background: #FFEBEE; color: #C62828; }
-.priority-importante { background: #FFF3E0; color: #E65100; }
-.priority-util { background: #E3F2FD; color: #1565C0; }
-.claim-btn { padding: 0.5rem 0.8rem; border: none; border-radius: 8px; font-size: 0.8rem; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s; }
-.claim-btn.available { background: var(--primary); color: white; }
-.claim-btn.available:hover { background: var(--primary-dark); transform: scale(1.05); }
-.claim-btn.taken { background: var(--success-bg); color: var(--success); cursor: default; font-size: 0.75rem; }
-.modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center; padding: 1rem; }
-.modal-overlay.active { display: flex; }
-.modal { background: white; border-radius: 16px; padding: 2rem; max-width: 400px; width: 100%; box-shadow: 0 10px 40px rgba(0,0,0,0.2); animation: modalIn 0.3s ease; }
-@keyframes modalIn { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-.modal h3 { color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.2rem; }
-.modal .modal-item-name { color: var(--text-light); margin-bottom: 1rem; font-style: italic; }
-.modal input { width: 100%; padding: 0.8rem; border: 2px solid var(--border); border-radius: 10px; font-size: 1rem; margin-bottom: 1rem; outline: none; transition: border-color 0.2s; }
-.modal input:focus { border-color: var(--primary); }
-.modal-buttons { display: flex; gap: 0.5rem; }
-.modal-buttons button { flex: 1; padding: 0.8rem; border: none; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
-.modal-buttons .confirm-btn { background: var(--primary); color: white; }
-.modal-buttons .confirm-btn:hover { background: var(--primary-dark); }
-.modal-buttons .cancel-btn { background: #F0F0F0; color: var(--text-light); }
-.admin-toggle { position: fixed; bottom: 1rem; right: 1rem; z-index: 50; background: var(--primary-dark); color: white; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
-.admin-panel { display: none; position: fixed; bottom: 4.5rem; right: 1rem; background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.2); z-index: 50; min-width: 200px; }
-.admin-panel.show { display: block; }
-.admin-panel button { display: block; width: 100%; padding: 0.6rem; margin: 0.3rem 0; border: 1px solid var(--border); border-radius: 8px; background: white; cursor: pointer; font-size: 0.85rem; text-align: left; }
-.admin-panel button:hover { background: var(--primary-light); }
-.loading { text-align: center; padding: 3rem; color: var(--text-light); }
-.loading .spinner { display: inline-block; width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
-.toast { position: fixed; bottom: 5rem; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--text); color: white; padding: 0.8rem 1.5rem; border-radius: 10px; font-size: 0.9rem; z-index: 2000; transition: transform 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
-.toast.show { transform: translateX(-50%) translateY(0); }
-.footer { text-align: center; padding: 2rem 1rem; color: var(--text-light); font-size: 0.75rem; background: var(--primary-light); }
-@media (min-width: 768px) {
-  .header h1 { font-size: 2.2rem; }
-  .header .baby-name { font-size: 3.5rem; }
-  .items-container { max-width: 800px; margin: 0 auto; }
-  .item { padding: 1rem 1.5rem; }
-}
+:root{--p:#D4845A;--pl:#F5DEB3;--pd:#B8632D;--bg:#FFF9F0;--c:#FFF;--t:#3D2B1F;--tl:#8B7355;--ok:#6B8E4E;--okb:#E8F5E0;--b:#E8D5C4;--sh:0 2px 8px rgba(139,115,85,.12)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--t);line-height:1.5;min-height:100vh}
+.hd{background:linear-gradient(135deg,var(--p),var(--pd));color:#fff;text-align:center;padding:2rem 1rem;position:relative;overflow:hidden}
+.hd::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(255,255,255,.1),transparent 60%)}
+.hd h1{font-size:1.8rem;font-weight:300;letter-spacing:2px;text-transform:uppercase;margin-bottom:.3rem;position:relative}
+.hd .bn{font-size:2.5rem;font-weight:700;font-style:italic;letter-spacing:1px;position:relative}
+.hd .ei{margin-top:1rem;font-size:.95rem;opacity:.9;position:relative}
+.hd .ei span{display:inline-block;margin:.2rem .5rem}
+.ps{background:var(--c);padding:1.2rem;text-align:center;border-bottom:1px solid var(--b);position:sticky;top:0;z-index:100;box-shadow:var(--sh)}
+.pbc{background:#EDE0D4;border-radius:20px;height:12px;max-width:500px;margin:.5rem auto;overflow:hidden}
+.pb{background:linear-gradient(90deg,var(--ok),#8BC34A);height:100%;border-radius:20px;transition:width .5s;width:0}
+.pt{font-size:.85rem;color:var(--tl)}.pt strong{color:var(--pd)}
+.fl{padding:.8rem 1rem;background:var(--c);border-bottom:1px solid var(--b);display:flex;gap:.5rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fb{padding:.4rem .8rem;border:1px solid var(--b);border-radius:20px;background:#fff;color:var(--tl);font-size:.8rem;cursor:pointer;white-space:nowrap;transition:all .2s}
+.fb.ac{background:var(--p);color:#fff;border-color:var(--p)}
+.fb:hover{border-color:var(--p)}
+.ct{padding:1rem;font-size:1.1rem;font-weight:600;color:var(--pd);background:var(--pl);border-bottom:2px solid var(--p);margin-top:.5rem}
+.cd{padding:.3rem 1rem .5rem;font-size:.8rem;color:var(--tl);background:var(--pl);border-bottom:1px solid var(--b)}
+.ic{padding:0 0 4rem}
+.it{display:flex;align-items:center;padding:.8rem 1rem;border-bottom:1px solid var(--b);background:var(--c);transition:background .2s;gap:.8rem}
+.it:hover{background:#FFF5E6}.it.cl{background:var(--okb);opacity:.75}
+.in{min-width:28px;height:28px;border-radius:50%;background:var(--pl);color:var(--pd);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:600}
+.it.cl .in{background:var(--ok);color:#fff}
+.ii{flex:1;min-width:0}
+.im{font-weight:500;font-size:.95rem;line-height:1.3}
+.it.cl .im{text-decoration:line-through;color:var(--tl)}
+.mt{display:flex;gap:.5rem;align-items:center;margin-top:.2rem;flex-wrap:wrap}
+.ip{font-weight:600;color:var(--pd);font-size:.85rem}
+.ino{font-size:.75rem;color:var(--tl);font-style:italic}
+.icb{font-size:.8rem;color:var(--ok);font-weight:500}
+.ipr{font-size:.65rem;padding:.1rem .4rem;border-radius:8px;font-weight:600;text-transform:uppercase}
+.pe{background:#FFEBEE;color:#C62828}.pi{background:#FFF3E0;color:#E65100}.pu{background:#E3F2FD;color:#1565C0}
+.cb{padding:.5rem .8rem;border:none;border-radius:8px;font-size:.8rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .2s}
+.cb.av{background:var(--p);color:#fff}.cb.av:hover{background:var(--pd);transform:scale(1.05)}
+.cb.tk{background:var(--okb);color:var(--ok);cursor:default;font-size:.75rem}
+.mo{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:1000;align-items:center;justify-content:center;padding:1rem}
+.mo.ac{display:flex}
+.ml{background:#fff;border-radius:16px;padding:2rem;max-width:400px;width:100%;box-shadow:0 10px 40px rgba(0,0,0,.2);animation:mi .3s ease}
+@keyframes mi{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+.ml h3{color:var(--pd);margin-bottom:.5rem;font-size:1.2rem}
+.ml .mn{color:var(--tl);margin-bottom:1rem;font-style:italic}
+.ml input{width:100%;padding:.8rem;border:2px solid var(--b);border-radius:10px;font-size:1rem;margin-bottom:1rem;outline:none;transition:border-color .2s}
+.ml input:focus{border-color:var(--p)}
+.mb{display:flex;gap:.5rem}
+.mb button{flex:1;padding:.8rem;border:none;border-radius:10px;font-size:1rem;font-weight:600;cursor:pointer;transition:all .2s}
+.mb .cf{background:var(--p);color:#fff}.mb .cf:hover{background:var(--pd)}
+.mb .cc{background:#F0F0F0;color:var(--tl)}
+.wa-share{display:block;margin-top:.8rem;padding:.7rem;border:none;border-radius:10px;font-size:.95rem;font-weight:600;cursor:pointer;text-align:center;background:#25D366;color:#fff;text-decoration:none;width:100%}
+.wa-share:hover{background:#128C7E}
+.at{position:fixed;bottom:1rem;right:1rem;z-index:50;background:var(--pd);color:#fff;border:none;border-radius:50%;width:50px;height:50px;font-size:1.2rem;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.ap{display:none;position:fixed;bottom:4.5rem;right:1rem;background:#fff;border-radius:12px;padding:1rem;box-shadow:0 4px 20px rgba(0,0,0,.2);z-index:50;min-width:220px}
+.ap.sh{display:block}
+.ap button{display:block;width:100%;padding:.6rem;margin:.3rem 0;border:1px solid var(--b);border-radius:8px;background:#fff;cursor:pointer;font-size:.85rem;text-align:left}
+.ap button:hover{background:var(--pl)}
+.ld{text-align:center;padding:3rem;color:var(--tl)}
+.sp{display:inline-block;width:40px;height:40px;border:3px solid var(--b);border-top-color:var(--p);border-radius:50%;animation:sp .8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.to{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%) translateY(100px);background:var(--t);color:#fff;padding:.8rem 1.5rem;border-radius:10px;font-size:.9rem;z-index:2000;transition:transform .3s;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.to.sh{transform:translateX(-50%) translateY(0)}
+.ft{text-align:center;padding:2rem 1rem;color:var(--tl);font-size:.75rem;background:var(--pl)}
+@media(min-width:768px){.hd h1{font-size:2.2rem}.hd .bn{font-size:3.5rem}.ic{max-width:800px;margin:0 auto}.it{padding:1rem 1.5rem}}
 </style>
 </head>
 <body>
-
-<div class="header">
+<div class="hd">
   <h1>Baby Shower</h1>
-  <div class="baby-name">Amara Garcia Usa</div>
-  <div class="event-info">
+  <div class="bn">Amara Garcia Usa</div>
+  <div class="ei">
     <span>Domingo 3 de Mayo 2026</span>
     <span>3:00 PM</span><br>
     <span>Carrera 86d #51b 92, sur 3er piso</span>
   </div>
 </div>
-
-<div class="progress-section">
-  <div class="progress-text">
-    <strong id="claimed-count">0</strong> de <strong id="total-count">100</strong> regalos apartados
-  </div>
-  <div class="progress-bar-container">
-    <div class="progress-bar" id="progress-bar"></div>
-  </div>
+<div class="ps">
+  <div class="pt"><strong id="cc">0</strong> de <strong id="tc">100</strong> regalos apartados</div>
+  <div class="pbc"><div class="pb" id="pb"></div></div>
 </div>
-
-<div class="filters" id="filters"></div>
-
-<div class="items-container" id="items-container">
-  <div class="loading">
-    <div class="spinner"></div>
-    <p style="margin-top:1rem">Cargando lista de regalos...</p>
-  </div>
-</div>
-
-<div class="modal-overlay" id="modal-overlay">
-  <div class="modal">
-    <h3>Apartar regalo</h3>
-    <p class="modal-item-name" id="modal-item-name"></p>
-    <input type="text" id="modal-name-input" placeholder="Tu nombre completo" autocomplete="name" maxlength="50">
-    <div class="modal-buttons">
-      <button class="cancel-btn" id="cancel-btn">Cancelar</button>
-      <button class="confirm-btn" id="confirm-btn">Confirmar</button>
+<div class="fl" id="fl"></div>
+<div class="ic" id="ic"><div class="ld"><div class="sp"></div><p style="margin-top:1rem">Cargando lista de regalos...</p></div></div>
+<div class="mo" id="mo">
+  <div class="ml">
+    <h3 id="mh">Apartar regalo</h3>
+    <p class="mn" id="mn"></p>
+    <input type="text" id="mi" placeholder="Tu nombre completo" autocomplete="name" maxlength="50">
+    <div class="mb">
+      <button class="cc" id="mc">Cancelar</button>
+      <button class="cf" id="mf">Confirmar</button>
+    </div>
+    <div id="wa-container" style="display:none">
+      <a class="wa-share" id="wa-link" target="_blank" rel="noopener">Compartir en WhatsApp que lo llevas</a>
     </div>
   </div>
 </div>
-
-<button class="admin-toggle" id="admin-toggle" title="Administrar">&#9881;</button>
-<div class="admin-panel" id="admin-panel">
-  <strong style="font-size:0.9rem;color:var(--primary-dark)">Administrador</strong>
-  <button id="btn-export">Exportar CSV</button>
-  <button id="btn-summary">Ver resumen</button>
-  <button id="btn-refresh">Actualizar datos</button>
+<button class="at" id="at" title="Administrar">&#9881;</button>
+<div class="ap" id="ap">
+  <strong style="font-size:.9rem;color:var(--pd)">Administrador</strong>
+  <button id="be">Exportar CSV</button>
+  <button id="bs">Ver resumen</button>
+  <button id="br">Limpiar mis apartados</button>
 </div>
+<div class="ft"><p>Con amor para Amara - Baby Shower 2026</p></div>
+<div class="to" id="to"></div>
 
-<div class="footer">
-  <p>Con amor para Amara - Baby Shower 2026</p>
-</div>
-
-<div class="toast" id="toast"></div>
-
+<script src="data.js"></script>
 <script>
-const BLOB_ID = '019dc562-77fa-7fd0-877e-00e905165e7d';
-const API_URL = 'https://jsonblob.com/api/jsonBlob/' + BLOB_ID;
+var claims=JSON.parse(localStorage.getItem('bsa_claims')||'{}');
+var cf='all',cid=null;
 
-let registryData = null;
-let currentFilter = 'all';
-let claimingItemId = null;
+function fp(p){return'$'+p.toLocaleString('es-CO')}
+function toast(m){var t=document.getElementById('to');t.textContent=m;t.classList.add('sh');setTimeout(function(){t.classList.remove('sh')},3000)}
 
-function esc(str) {
-  var d = document.createElement('div');
-  d.textContent = str || '';
-  return d.textContent;
-}
+function getClaimed(id){return claims[id]||null}
+function countClaimed(){var c=0;for(var k in claims)if(claims[k])c++;return c}
 
-function formatPrice(price) {
-  return '$' + price.toLocaleString('es-CO');
-}
-
-function showToast(msg) {
-  var t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
-  setTimeout(function() { t.classList.remove('show'); }, 3000);
-}
-
-function loadData() {
-  fetch(API_URL)
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      registryData = data;
-      renderFilters();
-      renderItems();
-      updateProgress();
-    })
-    .catch(function() {
-      var c = document.getElementById('items-container');
-      c.textContent = '';
-      var p = document.createElement('p');
-      p.textContent = 'Error cargando datos. Recarga la pagina.';
-      p.style.textAlign = 'center';
-      p.style.padding = '3rem';
-      c.appendChild(p);
-    });
-}
-
-function saveData() {
-  return fetch(API_URL, {
-    method: 'PUT',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify(registryData)
-  });
-}
-
-function renderFilters() {
-  var cats = [];
-  registryData.items.forEach(function(i) {
-    if (cats.indexOf(i.categoria) === -1) cats.push(i.categoria);
-  });
-  var f = document.getElementById('filters');
-  f.textContent = '';
-
-  function makeBtn(label, filter) {
-    var b = document.createElement('button');
-    b.className = 'filter-btn' + (filter === 'all' ? ' active' : '');
-    b.textContent = label;
-    b.addEventListener('click', function() {
-      currentFilter = filter;
-      f.querySelectorAll('.filter-btn').forEach(function(x) { x.classList.remove('active'); });
-      b.classList.add('active');
+function renderFilters(){
+  var cats=[],seen={};
+  ITEMS.forEach(function(i){if(!seen[i.c]){seen[i.c]=1;cats.push(i.c)}});
+  var f=document.getElementById('fl');
+  f.textContent='';
+  function mb(l,v){
+    var b=document.createElement('button');
+    b.className='fb'+(v==='all'?' ac':'');
+    b.textContent=l;
+    b.addEventListener('click',function(){
+      cf=v;
+      f.querySelectorAll('.fb').forEach(function(x){x.classList.remove('ac')});
+      b.classList.add('ac');
       renderItems();
     });
     f.appendChild(b);
   }
-
-  makeBtn('Todos', 'all');
-  makeBtn('Disponibles', 'available');
-  makeBtn('Apartados', 'claimed');
-  cats.forEach(function(c) {
-    makeBtn(c.split(' - ')[0].split('(')[0].trim(), 'cat:' + c);
-  });
+  mb('Todos','all');mb('Disponibles','av');mb('Apartados','cl');
+  cats.forEach(function(c){mb(c.split(' - ')[0].split('(')[0].trim(),'cat:'+c)});
 }
 
-function renderItems() {
-  var container = document.getElementById('items-container');
-  container.textContent = '';
-  var items = registryData.items;
+function renderItems(){
+  var c=document.getElementById('ic');c.textContent='';
+  var items=ITEMS;
+  if(cf==='av')items=items.filter(function(i){return!getClaimed(i.id)});
+  else if(cf==='cl')items=items.filter(function(i){return!!getClaimed(i.id)});
+  else if(cf.indexOf('cat:')===0){var cat=cf.substring(4);items=items.filter(function(i){return i.c===cat})}
 
-  if (currentFilter === 'available') items = items.filter(function(i) { return !i.apartado_por; });
-  else if (currentFilter === 'claimed') items = items.filter(function(i) { return !!i.apartado_por; });
-  else if (currentFilter.indexOf('cat:') === 0) {
-    var cat = currentFilter.substring(4);
-    items = items.filter(function(i) { return i.categoria === cat; });
+  var cc='';
+  items.forEach(function(item){
+    if(item.c!==cc){
+      cc=item.c;
+      var parts=cc.split(' - ');
+      var ct=document.createElement('div');ct.className='ct';ct.textContent=parts[0];c.appendChild(ct);
+      if(parts[1]){var cd=document.createElement('div');cd.className='cd';cd.textContent=parts[1];c.appendChild(cd)}
+    }
+    var cl=getClaimed(item.id);
+    var r=document.createElement('div');r.className='it'+(cl?' cl':'');
+    var n=document.createElement('div');n.className='in';n.textContent=cl?'\u2713':item.id;r.appendChild(n);
+    var ii=document.createElement('div');ii.className='ii';
+    var nm=document.createElement('div');nm.className='im';nm.textContent=item.n;ii.appendChild(nm);
+    var mt=document.createElement('div');mt.className='mt';
+    var pr=document.createElement('span');pr.className='ip';pr.textContent=fp(item.p);mt.appendChild(pr);
+    var pp=document.createElement('span');pp.className='ipr '+(item.pr==='esencial'?'pe':item.pr==='importante'?'pi':'pu');pp.textContent=item.pr;mt.appendChild(pp);
+    if(item.nt){var nt=document.createElement('span');nt.className='ino';nt.textContent=item.nt;mt.appendChild(nt)}
+    ii.appendChild(mt);
+    if(cl){var cb=document.createElement('div');cb.className='icb';cb.textContent='Apartado por: '+cl;ii.appendChild(cb)}
+    r.appendChild(ii);
+    var btn=document.createElement('button');btn.className='cb '+(cl?'tk':'av');btn.textContent=cl?'Apartado':'Lo llevo yo';
+    if(cl)btn.disabled=true;
+    else(function(id){btn.addEventListener('click',function(){openClaim(id)})})(item.id);
+    r.appendChild(btn);c.appendChild(r);
+  });
+  if(!items.length){var e=document.createElement('p');e.textContent='No hay items en esta categoria';e.style.cssText='text-align:center;padding:3rem;color:var(--tl)';c.appendChild(e)}
+  updateProgress();
+}
+
+function updateProgress(){
+  var cl=countClaimed(),total=ITEMS.length;
+  document.getElementById('cc').textContent=cl;
+  document.getElementById('tc').textContent=total;
+  document.getElementById('pb').style.width=(cl/total*100)+'%';
+}
+
+function openClaim(id){
+  cid=id;
+  var item=ITEMS.find(function(i){return i.id===id});
+  document.getElementById('mh').textContent='Apartar regalo';
+  document.getElementById('mn').textContent=item.n+' - '+fp(item.p);
+  document.getElementById('mi').value=localStorage.getItem('bsa_name')||'';
+  document.getElementById('wa-container').style.display='none';
+  document.getElementById('mo').classList.add('ac');
+  setTimeout(function(){document.getElementById('mi').focus()},300);
+}
+
+function closeModal(){document.getElementById('mo').classList.remove('ac');cid=null}
+
+function confirmClaim(){
+  var name=document.getElementById('mi').value.trim().replace(/[<>&"']/g,'');
+  if(!name||name.length<2){toast('Por favor escribe tu nombre');return}
+  if(getClaimed(cid)){toast('Este regalo ya fue apartado');closeModal();renderItems();return}
+  claims[cid]=name;
+  localStorage.setItem('bsa_claims',JSON.stringify(claims));
+  localStorage.setItem('bsa_name',name);
+  var item=ITEMS.find(function(i){return i.id===cid});
+
+  // Show WhatsApp share
+  document.getElementById('mh').textContent='Listo!';
+  document.getElementById('mn').textContent='"'+item.n+'" apartado por '+name;
+  document.getElementById('mi').style.display='none';
+  document.querySelectorAll('.mb')[0].style.display='none';
+  var waC=document.getElementById('wa-container');
+  waC.style.display='block';
+  var msg=encodeURIComponent('Hola! Yo llevo el regalo #'+item.id+': '+item.n+' ('+fp(item.p)+') para el Baby Shower de Amara');
+  document.getElementById('wa-link').href='https://wa.me/?text='+msg;
+
+  renderItems();
+  toast('"'+item.n+'" apartado por '+name);
+
+  setTimeout(function(){
+    closeModal();
+    document.getElementById('mi').style.display='';
+    document.querySelectorAll('.mb')[0].style.display='';
+  },8000);
+}
+
+function exportCSV(){
+  var csv='ID,Categoria,Articulo,Precio,Prioridad,Apartado Por\n';
+  ITEMS.forEach(function(i){
+    csv+=i.id+',"'+i.c+'","'+i.n+'",'+i.p+','+i.pr+',"'+(getClaimed(i.id)||'')+'"\n';
+  });
+  var b=new Blob([csv],{type:'text/csv'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='baby-shower-amara.csv';a.click();toast('CSV descargado');
+}
+
+function showSummary(){
+  var cl=countClaimed(),total=ITEMS.length,av=total-cl;
+  var cv=0,tv=0,people=[];
+  ITEMS.forEach(function(i){tv+=i.p;if(getClaimed(i.id)){cv+=i.p;var n=getClaimed(i.id);if(people.indexOf(n)===-1)people.push(n)}});
+  alert('RESUMEN - Baby Shower Amara\n\nTotal regalos: '+total+'\nApartados: '+cl+'\nDisponibles: '+av+'\n\nValor apartado: '+fp(cv)+'\nValor total: '+fp(tv)+'\n\nPersonas: '+people.length+'\n'+people.join(', '));
+}
+
+function clearClaims(){
+  if(confirm('Limpiar todos tus apartados? Esto no se puede deshacer.')){
+    claims={};localStorage.removeItem('bsa_claims');renderItems();toast('Apartados limpiados');
   }
-
-  var currentCat = '';
-  items.forEach(function(item) {
-    if (item.categoria !== currentCat) {
-      currentCat = item.categoria;
-      var parts = currentCat.split(' - ');
-      var catDiv = document.createElement('div');
-      catDiv.className = 'category-title';
-      catDiv.textContent = parts[0];
-      container.appendChild(catDiv);
-      if (parts[1]) {
-        var descDiv = document.createElement('div');
-        descDiv.className = 'category-desc';
-        descDiv.textContent = parts[1];
-        container.appendChild(descDiv);
-      }
-    }
-
-    var isClaimed = !!item.apartado_por;
-    var row = document.createElement('div');
-    row.className = 'item' + (isClaimed ? ' claimed' : '');
-
-    var num = document.createElement('div');
-    num.className = 'item-number';
-    num.textContent = isClaimed ? '\u2713' : item.id;
-    row.appendChild(num);
-
-    var info = document.createElement('div');
-    info.className = 'item-info';
-
-    var nameEl = document.createElement('div');
-    nameEl.className = 'item-name';
-    nameEl.textContent = item.nombre;
-    info.appendChild(nameEl);
-
-    var meta = document.createElement('div');
-    meta.className = 'item-meta';
-    var priceEl = document.createElement('span');
-    priceEl.className = 'item-price';
-    priceEl.textContent = formatPrice(item.precio);
-    meta.appendChild(priceEl);
-
-    var prioEl = document.createElement('span');
-    prioEl.className = 'item-priority priority-' + item.prioridad;
-    prioEl.textContent = item.prioridad;
-    meta.appendChild(prioEl);
-
-    if (item.notas) {
-      var noteEl = document.createElement('span');
-      noteEl.className = 'item-notes';
-      noteEl.textContent = item.notas;
-      meta.appendChild(noteEl);
-    }
-    info.appendChild(meta);
-
-    if (isClaimed) {
-      var claimedEl = document.createElement('div');
-      claimedEl.className = 'item-claimed-by';
-      claimedEl.textContent = 'Apartado por: ' + esc(item.apartado_por);
-      info.appendChild(claimedEl);
-    }
-    row.appendChild(info);
-
-    var btn = document.createElement('button');
-    btn.className = 'claim-btn ' + (isClaimed ? 'taken' : 'available');
-    btn.textContent = isClaimed ? 'Apartado' : 'Lo llevo yo';
-    if (isClaimed) {
-      btn.disabled = true;
-    } else {
-      (function(id) {
-        btn.addEventListener('click', function() { openClaim(id); });
-      })(item.id);
-    }
-    row.appendChild(btn);
-    container.appendChild(row);
-  });
-
-  if (items.length === 0) {
-    var empty = document.createElement('p');
-    empty.textContent = 'No hay items en esta categoria';
-    empty.style.textAlign = 'center';
-    empty.style.padding = '3rem';
-    empty.style.color = 'var(--text-light)';
-    container.appendChild(empty);
-  }
 }
 
-function updateProgress() {
-  var total = registryData.items.length;
-  var claimed = registryData.items.filter(function(i) { return !!i.apartado_por; }).length;
-  document.getElementById('claimed-count').textContent = claimed;
-  document.getElementById('total-count').textContent = total;
-  document.getElementById('progress-bar').style.width = (claimed / total * 100) + '%';
-}
+document.getElementById('mc').addEventListener('click',closeModal);
+document.getElementById('mf').addEventListener('click',confirmClaim);
+document.getElementById('at').addEventListener('click',function(){document.getElementById('ap').classList.toggle('sh')});
+document.getElementById('be').addEventListener('click',exportCSV);
+document.getElementById('bs').addEventListener('click',showSummary);
+document.getElementById('br').addEventListener('click',clearClaims);
+document.getElementById('mo').addEventListener('click',function(e){if(e.target===this)closeModal()});
+document.getElementById('mi').addEventListener('keyup',function(e){if(e.key==='Enter')confirmClaim()});
 
-function openClaim(itemId) {
-  claimingItemId = itemId;
-  var item = registryData.items.find(function(i) { return i.id === itemId; });
-  document.getElementById('modal-item-name').textContent = item.nombre + ' - ' + formatPrice(item.precio);
-  document.getElementById('modal-name-input').value = localStorage.getItem('baby_shower_name') || '';
-  document.getElementById('modal-overlay').classList.add('active');
-  setTimeout(function() { document.getElementById('modal-name-input').focus(); }, 300);
-}
-
-function closeModal() {
-  document.getElementById('modal-overlay').classList.remove('active');
-  claimingItemId = null;
-}
-
-function confirmClaim() {
-  var nameInput = document.getElementById('modal-name-input');
-  var name = nameInput.value.trim();
-  if (!name || name.length < 2) {
-    showToast('Por favor escribe tu nombre');
-    return;
-  }
-  // Sanitize name
-  name = name.replace(/[<>&"']/g, '');
-
-  fetch(API_URL)
-    .then(function(r) { return r.json(); })
-    .then(function(freshData) {
-      registryData = freshData;
-      var item = registryData.items.find(function(i) { return i.id === claimingItemId; });
-      if (!item) return;
-      if (item.apartado_por) {
-        showToast('Este regalo ya fue apartado por ' + esc(item.apartado_por));
-        closeModal();
-        renderItems();
-        updateProgress();
-        return;
-      }
-      item.apartado_por = name;
-      item.fecha_apartado = new Date().toISOString();
-      localStorage.setItem('baby_shower_name', name);
-      return saveData();
-    })
-    .then(function() {
-      var item = registryData.items.find(function(i) { return i.id === claimingItemId; });
-      closeModal();
-      renderItems();
-      updateProgress();
-      if (item) showToast('"' + item.nombre + '" apartado por ' + esc(item.apartado_por));
-    })
-    .catch(function() {
-      showToast('Error guardando. Intenta de nuevo.');
-    });
-}
-
-function exportCSV() {
-  var csv = 'ID,Categoria,Articulo,Precio,Prioridad,Apartado Por,Fecha\n';
-  registryData.items.forEach(function(i) {
-    csv += i.id + ',"' + i.categoria + '","' + i.nombre + '",' + i.precio + ',' + i.prioridad + ',"' + (i.apartado_por || '') + '","' + (i.fecha_apartado || '') + '"\n';
-  });
-  var blob = new Blob([csv], {type: 'text/csv'});
-  var a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'baby-shower-amara-regalos.csv';
-  a.click();
-  showToast('CSV descargado');
-}
-
-function showSummary() {
-  var total = registryData.items.length;
-  var claimed = registryData.items.filter(function(i) { return !!i.apartado_por; }).length;
-  var available = total - claimed;
-  var claimedValue = registryData.items.filter(function(i) { return !!i.apartado_por; }).reduce(function(s,i) { return s + i.precio; }, 0);
-  var totalValue = registryData.items.reduce(function(s,i) { return s + i.precio; }, 0);
-  var people = [];
-  registryData.items.forEach(function(i) {
-    if (i.apartado_por && people.indexOf(i.apartado_por) === -1) people.push(i.apartado_por);
-  });
-  alert('RESUMEN - Baby Shower Amara\n\nTotal regalos: ' + total + '\nApartados: ' + claimed + '\nDisponibles: ' + available + '\n\nValor apartado: ' + formatPrice(claimedValue) + '\nValor total: ' + formatPrice(totalValue) + '\n\nPersonas: ' + people.length + '\n' + people.join(', '));
-}
-
-// Event listeners
-document.getElementById('cancel-btn').addEventListener('click', closeModal);
-document.getElementById('confirm-btn').addEventListener('click', confirmClaim);
-document.getElementById('admin-toggle').addEventListener('click', function() {
-  document.getElementById('admin-panel').classList.toggle('show');
-});
-document.getElementById('btn-export').addEventListener('click', exportCSV);
-document.getElementById('btn-summary').addEventListener('click', showSummary);
-document.getElementById('btn-refresh').addEventListener('click', function() { loadData(); showToast('Datos actualizados'); });
-document.getElementById('modal-overlay').addEventListener('click', function(e) {
-  if (e.target === this) closeModal();
-});
-document.getElementById('modal-name-input').addEventListener('keyup', function(e) {
-  if (e.key === 'Enter') confirmClaim();
-});
-
-// Auto-refresh every 60s
-setInterval(function() {
-  fetch(API_URL).then(function(r) { return r.json(); }).then(function(d) {
-    var old = registryData.items.filter(function(i) { return !!i.apartado_por; }).length;
-    registryData = d;
-    var now = d.items.filter(function(i) { return !!i.apartado_por; }).length;
-    if (now !== old) { renderItems(); updateProgress(); }
-  }).catch(function() {});
-}, 60000);
-
-loadData();
+renderFilters();
+renderItems();
 </script>
 </body>
 </html>
